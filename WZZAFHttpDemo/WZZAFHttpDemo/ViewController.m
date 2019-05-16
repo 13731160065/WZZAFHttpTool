@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "../../WZZAFHttpTool/WZZAFHttpTool.h"
+#import "../WZZAFHttpTool/WZZAFHttpTool.h"
 
 @interface ViewController ()
 

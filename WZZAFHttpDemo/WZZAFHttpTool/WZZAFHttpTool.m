@@ -7,6 +7,7 @@
 //
 
 #import "WZZAFHttpTool.h"
+#import "AFNetworking.h"
 
 @implementation WZZAFHttpTool
 

@@ -16,7 +16,7 @@
 		5250BA6D228CF78E00C03AF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5250BA6C228CF78E00C03AF5 /* main.m */; };
 		5250BA77228CF78E00C03AF5 /* WZZAFHttpDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5250BA76228CF78E00C03AF5 /* WZZAFHttpDemoTests.m */; };
 		5250BA82228CF78E00C03AF5 /* WZZAFHttpDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5250BA81228CF78E00C03AF5 /* WZZAFHttpDemoUITests.m */; };
-		5250BA92228CF7C600C03AF5 /* WZZAFHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5250BA91228CF7C600C03AF5 /* WZZAFHttpTool.m */; };
+		5250BA96228CFED000C03AF5 /* WZZAFHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5250BA95228CFED000C03AF5 /* WZZAFHttpTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		5250BA7D228CF78E00C03AF5 /* WZZAFHttpDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZZAFHttpDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5250BA81228CF78E00C03AF5 /* WZZAFHttpDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZAFHttpDemoUITests.m; sourceTree = "<group>"; };
 		5250BA83228CF78E00C03AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5250BA90228CF7C600C03AF5 /* WZZAFHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZAFHttpTool.h; sourceTree = "<group>"; };
-		5250BA91228CF7C600C03AF5 /* WZZAFHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZAFHttpTool.m; sourceTree = "<group>"; };
+		5250BA94228CFED000C03AF5 /* WZZAFHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZAFHttpTool.h; sourceTree = "<group>"; };
+		5250BA95228CFED000C03AF5 /* WZZAFHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZAFHttpTool.m; sourceTree = "<group>"; };
 		626A77E41CF6DA3E9965DECB /* Pods-WZZAFHttpDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZZAFHttpDemo.debug.xcconfig"; path = "Target Support Files/Pods-WZZAFHttpDemo/Pods-WZZAFHttpDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		EA5DF53C8EF10737863BC5D8 /* Pods-WZZAFHttpDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZZAFHttpDemo.release.xcconfig"; path = "Target Support Files/Pods-WZZAFHttpDemo/Pods-WZZAFHttpDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,7 +89,7 @@
 		5250BA51228CF78D00C03AF5 = {
 			isa = PBXGroup;
 			children = (
-				5250BA8F228CF7A300C03AF5 /* WZZAFHttpTool */,
+				5250BA93228CFED000C03AF5 /* WZZAFHttpTool */,
 				5250BA5C228CF78D00C03AF5 /* WZZAFHttpDemo */,
 				5250BA75228CF78E00C03AF5 /* WZZAFHttpDemoTests */,
 				5250BA80228CF78E00C03AF5 /* WZZAFHttpDemoUITests */,
@@ -143,14 +143,13 @@
 			path = WZZAFHttpDemoUITests;
 			sourceTree = "<group>";
 		};
-		5250BA8F228CF7A300C03AF5 /* WZZAFHttpTool */ = {
+		5250BA93228CFED000C03AF5 /* WZZAFHttpTool */ = {
 			isa = PBXGroup;
 			children = (
-				5250BA90228CF7C600C03AF5 /* WZZAFHttpTool.h */,
-				5250BA91228CF7C600C03AF5 /* WZZAFHttpTool.m */,
+				5250BA94228CFED000C03AF5 /* WZZAFHttpTool.h */,
+				5250BA95228CFED000C03AF5 /* WZZAFHttpTool.m */,
 			);
-			name = WZZAFHttpTool;
-			path = ../WZZAFHttpTool;
+			path = WZZAFHttpTool;
 			sourceTree = "<group>";
 		};
 		5A85C49ABB87E6FFC01596E3 /* Frameworks */ = {
@@ -167,7 +166,6 @@
 				626A77E41CF6DA3E9965DECB /* Pods-WZZAFHttpDemo.debug.xcconfig */,
 				EA5DF53C8EF10737863BC5D8 /* Pods-WZZAFHttpDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -329,7 +327,7 @@
 			files = (
 				5250BA62228CF78D00C03AF5 /* ViewController.m in Sources */,
 				5250BA6D228CF78E00C03AF5 /* main.m in Sources */,
-				5250BA92228CF7C600C03AF5 /* WZZAFHttpTool.m in Sources */,
+				5250BA96228CFED000C03AF5 /* WZZAFHttpTool.m in Sources */,
 				5250BA5F228CF78D00C03AF5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

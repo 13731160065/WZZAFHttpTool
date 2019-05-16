@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AFNetworking.h>
+@class AFHTTPSessionManager;
+@protocol AFMultipartFormData;
 
 @interface WZZAFHttpTool : NSObject
 
