@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		423A6891BC30D2E30E4B1A12 /* libPods-WZZAFHttpDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 153DD19C2AF53AD7C6127AF4 /* libPods-WZZAFHttpDemo.a */; };
+		5250BA5F228CF78D00C03AF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5250BA5E228CF78D00C03AF5 /* AppDelegate.m */; };
+		5250BA62228CF78D00C03AF5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5250BA61228CF78D00C03AF5 /* ViewController.m */; };
+		5250BA65228CF78D00C03AF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5250BA63228CF78D00C03AF5 /* Main.storyboard */; };
+		5250BA67228CF78E00C03AF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5250BA66228CF78E00C03AF5 /* Assets.xcassets */; };
+		5250BA6A228CF78E00C03AF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5250BA68228CF78E00C03AF5 /* LaunchScreen.storyboard */; };
+		5250BA6D228CF78E00C03AF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5250BA6C228CF78E00C03AF5 /* main.m */; };
+		5250BA77228CF78E00C03AF5 /* WZZAFHttpDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5250BA76228CF78E00C03AF5 /* WZZAFHttpDemoTests.m */; };
+		5250BA82228CF78E00C03AF5 /* WZZAFHttpDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5250BA81228CF78E00C03AF5 /* WZZAFHttpDemoUITests.m */; };
+		5250BA92228CF7C600C03AF5 /* WZZAFHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5250BA91228CF7C600C03AF5 /* WZZAFHttpTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5250BA73228CF78E00C03AF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5250BA52228CF78D00C03AF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5250BA59228CF78D00C03AF5;
+			remoteInfo = WZZAFHttpDemo;
+		};
+		5250BA7E228CF78E00C03AF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5250BA52228CF78D00C03AF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5250BA59228CF78D00C03AF5;
+			remoteInfo = WZZAFHttpDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		153DD19C2AF53AD7C6127AF4 /* libPods-WZZAFHttpDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WZZAFHttpDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5250BA5A228CF78D00C03AF5 /* WZZAFHttpDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZZAFHttpDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5250BA5D228CF78D00C03AF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5250BA5E228CF78D00C03AF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5250BA60228CF78D00C03AF5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5250BA61228CF78D00C03AF5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5250BA64228CF78D00C03AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5250BA66228CF78E00C03AF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5250BA69228CF78E00C03AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5250BA6B228CF78E00C03AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5250BA6C228CF78E00C03AF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5250BA72228CF78E00C03AF5 /* WZZAFHttpDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZZAFHttpDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5250BA76228CF78E00C03AF5 /* WZZAFHttpDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZAFHttpDemoTests.m; sourceTree = "<group>"; };
+		5250BA78228CF78E00C03AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5250BA7D228CF78E00C03AF5 /* WZZAFHttpDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZZAFHttpDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5250BA81228CF78E00C03AF5 /* WZZAFHttpDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZZAFHttpDemoUITests.m; sourceTree = "<group>"; };
+		5250BA83228CF78E00C03AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5250BA90228CF7C600C03AF5 /* WZZAFHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZZAFHttpTool.h; sourceTree = "<group>"; };
+		5250BA91228CF7C600C03AF5 /* WZZAFHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZZAFHttpTool.m; sourceTree = "<group>"; };
+		626A77E41CF6DA3E9965DECB /* Pods-WZZAFHttpDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZZAFHttpDemo.debug.xcconfig"; path = "Target Support Files/Pods-WZZAFHttpDemo/Pods-WZZAFHttpDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EA5DF53C8EF10737863BC5D8 /* Pods-WZZAFHttpDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WZZAFHttpDemo.release.xcconfig"; path = "Target Support Files/Pods-WZZAFHttpDemo/Pods-WZZAFHttpDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5250BA57228CF78D00C03AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423A6891BC30D2E30E4B1A12 /* libPods-WZZAFHttpDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5250BA6F228CF78E00C03AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5250BA7A228CF78E00C03AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5250BA51228CF78D00C03AF5 = {
+			isa = PBXGroup;
+			children = (
+				5250BA8F228CF7A300C03AF5 /* WZZAFHttpTool */,
+				5250BA5C228CF78D00C03AF5 /* WZZAFHttpDemo */,
+				5250BA75228CF78E00C03AF5 /* WZZAFHttpDemoTests */,
+				5250BA80228CF78E00C03AF5 /* WZZAFHttpDemoUITests */,
+				5250BA5B228CF78D00C03AF5 /* Products */,
+				72FC371A752095A1CCDF1AE7 /* Pods */,
+				5A85C49ABB87E6FFC01596E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5250BA5B228CF78D00C03AF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5250BA5A228CF78D00C03AF5 /* WZZAFHttpDemo.app */,
+				5250BA72228CF78E00C03AF5 /* WZZAFHttpDemoTests.xctest */,
+				5250BA7D228CF78E00C03AF5 /* WZZAFHttpDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5250BA5C228CF78D00C03AF5 /* WZZAFHttpDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5250BA5D228CF78D00C03AF5 /* AppDelegate.h */,
+				5250BA5E228CF78D00C03AF5 /* AppDelegate.m */,
+				5250BA60228CF78D00C03AF5 /* ViewController.h */,
+				5250BA61228CF78D00C03AF5 /* ViewController.m */,
+				5250BA63228CF78D00C03AF5 /* Main.storyboard */,
+				5250BA66228CF78E00C03AF5 /* Assets.xcassets */,
+				5250BA68228CF78E00C03AF5 /* LaunchScreen.storyboard */,
+				5250BA6B228CF78E00C03AF5 /* Info.plist */,
+				5250BA6C228CF78E00C03AF5 /* main.m */,
+			);
+			path = WZZAFHttpDemo;
+			sourceTree = "<group>";
+		};
+		5250BA75228CF78E00C03AF5 /* WZZAFHttpDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5250BA76228CF78E00C03AF5 /* WZZAFHttpDemoTests.m */,
+				5250BA78228CF78E00C03AF5 /* Info.plist */,
+			);
+			path = WZZAFHttpDemoTests;
+			sourceTree = "<group>";
+		};
+		5250BA80228CF78E00C03AF5 /* WZZAFHttpDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5250BA81228CF78E00C03AF5 /* WZZAFHttpDemoUITests.m */,
+				5250BA83228CF78E00C03AF5 /* Info.plist */,
+			);
+			path = WZZAFHttpDemoUITests;
+			sourceTree = "<group>";
+		};
+		5250BA8F228CF7A300C03AF5 /* WZZAFHttpTool */ = {
+			isa = PBXGroup;
+			children = (
+				5250BA90228CF7C600C03AF5 /* WZZAFHttpTool.h */,
+				5250BA91228CF7C600C03AF5 /* WZZAFHttpTool.m */,
+			);
+			name = WZZAFHttpTool;
+			path = ../WZZAFHttpTool;
+			sourceTree = "<group>";
+		};
+		5A85C49ABB87E6FFC01596E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				153DD19C2AF53AD7C6127AF4 /* libPods-WZZAFHttpDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72FC371A752095A1CCDF1AE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				626A77E41CF6DA3E9965DECB /* Pods-WZZAFHttpDemo.debug.xcconfig */,
+				EA5DF53C8EF10737863BC5D8 /* Pods-WZZAFHttpDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5250BA59228CF78D00C03AF5 /* WZZAFHttpDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5250BA86228CF78E00C03AF5 /* Build configuration list for PBXNativeTarget "WZZAFHttpDemo" */;
+			buildPhases = (
+				CF1ED43BF95153B1A43548A5 /* [CP] Check Pods Manifest.lock */,
+				5250BA56228CF78D00C03AF5 /* Sources */,
+				5250BA57228CF78D00C03AF5 /* Frameworks */,
+				5250BA58228CF78D00C03AF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZZAFHttpDemo;
+			productName = WZZAFHttpDemo;
+			productReference = 5250BA5A228CF78D00C03AF5 /* WZZAFHttpDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5250BA71228CF78E00C03AF5 /* WZZAFHttpDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5250BA89228CF78E00C03AF5 /* Build configuration list for PBXNativeTarget "WZZAFHttpDemoTests" */;
+			buildPhases = (
+				5250BA6E228CF78E00C03AF5 /* Sources */,
+				5250BA6F228CF78E00C03AF5 /* Frameworks */,
+				5250BA70228CF78E00C03AF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5250BA74228CF78E00C03AF5 /* PBXTargetDependency */,
+			);
+			name = WZZAFHttpDemoTests;
+			productName = WZZAFHttpDemoTests;
+			productReference = 5250BA72228CF78E00C03AF5 /* WZZAFHttpDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5250BA7C228CF78E00C03AF5 /* WZZAFHttpDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5250BA8C228CF78E00C03AF5 /* Build configuration list for PBXNativeTarget "WZZAFHttpDemoUITests" */;
+			buildPhases = (
+				5250BA79228CF78E00C03AF5 /* Sources */,
+				5250BA7A228CF78E00C03AF5 /* Frameworks */,
+				5250BA7B228CF78E00C03AF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5250BA7F228CF78E00C03AF5 /* PBXTargetDependency */,
+			);
+			name = WZZAFHttpDemoUITests;
+			productName = WZZAFHttpDemoUITests;
+			productReference = 5250BA7D228CF78E00C03AF5 /* WZZAFHttpDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5250BA52228CF78D00C03AF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = wzz;
+				TargetAttributes = {
+					5250BA59228CF78D00C03AF5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5250BA71228CF78E00C03AF5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5250BA59228CF78D00C03AF5;
+					};
+					5250BA7C228CF78E00C03AF5 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5250BA59228CF78D00C03AF5;
+					};
+				};
+			};
+			buildConfigurationList = 5250BA55228CF78D00C03AF5 /* Build configuration list for PBXProject "WZZAFHttpDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5250BA51228CF78D00C03AF5;
+			productRefGroup = 5250BA5B228CF78D00C03AF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5250BA59228CF78D00C03AF5 /* WZZAFHttpDemo */,
+				5250BA71228CF78E00C03AF5 /* WZZAFHttpDemoTests */,
+				5250BA7C228CF78E00C03AF5 /* WZZAFHttpDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5250BA58228CF78D00C03AF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5250BA6A228CF78E00C03AF5 /* LaunchScreen.storyboard in Resources */,
+				5250BA67228CF78E00C03AF5 /* Assets.xcassets in Resources */,
+				5250BA65228CF78D00C03AF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5250BA70228CF78E00C03AF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5250BA7B228CF78E00C03AF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF1ED43BF95153B1A43548A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WZZAFHttpDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5250BA56228CF78D00C03AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5250BA62228CF78D00C03AF5 /* ViewController.m in Sources */,
+				5250BA6D228CF78E00C03AF5 /* main.m in Sources */,
+				5250BA92228CF7C600C03AF5 /* WZZAFHttpTool.m in Sources */,
+				5250BA5F228CF78D00C03AF5 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5250BA6E228CF78E00C03AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5250BA77228CF78E00C03AF5 /* WZZAFHttpDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5250BA79228CF78E00C03AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5250BA82228CF78E00C03AF5 /* WZZAFHttpDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5250BA74228CF78E00C03AF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5250BA59228CF78D00C03AF5 /* WZZAFHttpDemo */;
+			targetProxy = 5250BA73228CF78E00C03AF5 /* PBXContainerItemProxy */;
+		};
+		5250BA7F228CF78E00C03AF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5250BA59228CF78D00C03AF5 /* WZZAFHttpDemo */;
+			targetProxy = 5250BA7E228CF78E00C03AF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5250BA63228CF78D00C03AF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5250BA64228CF78D00C03AF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5250BA68228CF78E00C03AF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5250BA69228CF78E00C03AF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5250BA84228CF78E00C03AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5250BA85228CF78E00C03AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5250BA87228CF78E00C03AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 626A77E41CF6DA3E9965DECB /* Pods-WZZAFHttpDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = WZZAFHttpDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzz.WZZAFHttpDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5250BA88228CF78E00C03AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA5DF53C8EF10737863BC5D8 /* Pods-WZZAFHttpDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = WZZAFHttpDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzz.WZZAFHttpDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5250BA8A228CF78E00C03AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WZZAFHttpDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzz.WZZAFHttpDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZZAFHttpDemo.app/WZZAFHttpDemo";
+			};
+			name = Debug;
+		};
+		5250BA8B228CF78E00C03AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WZZAFHttpDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzz.WZZAFHttpDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZZAFHttpDemo.app/WZZAFHttpDemo";
+			};
+			name = Release;
+		};
+		5250BA8D228CF78E00C03AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WZZAFHttpDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzz.WZZAFHttpDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WZZAFHttpDemo;
+			};
+			name = Debug;
+		};
+		5250BA8E228CF78E00C03AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WZZAFHttpDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wzz.WZZAFHttpDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WZZAFHttpDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5250BA55228CF78D00C03AF5 /* Build configuration list for PBXProject "WZZAFHttpDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5250BA84228CF78E00C03AF5 /* Debug */,
+				5250BA85228CF78E00C03AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5250BA86228CF78E00C03AF5 /* Build configuration list for PBXNativeTarget "WZZAFHttpDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5250BA87228CF78E00C03AF5 /* Debug */,
+				5250BA88228CF78E00C03AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5250BA89228CF78E00C03AF5 /* Build configuration list for PBXNativeTarget "WZZAFHttpDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5250BA8A228CF78E00C03AF5 /* Debug */,
+				5250BA8B228CF78E00C03AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5250BA8C228CF78E00C03AF5 /* Build configuration list for PBXNativeTarget "WZZAFHttpDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5250BA8D228CF78E00C03AF5 /* Debug */,
+				5250BA8E228CF78E00C03AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5250BA52228CF78D00C03AF5 /* Project object */;
+}
