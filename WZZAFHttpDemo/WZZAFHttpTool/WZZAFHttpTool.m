@@ -73,7 +73,7 @@
                    failedBlock:(void (^)(NSError *))failedBlock
                    configBlock:(void(^)(AFHTTPSessionManager * manager))configBlock {
     AFHTTPSessionManager * manager = [AFHTTPSessionManager manager];
-    manager.requestSerializer = [AFJSONRequestSerializer serializer];
+    manager.requestSerializer = [AFHTTPRequestSerializer serializer];
     manager.responseSerializer = [AFJSONResponseSerializer serializer];
     manager.responseSerializer.acceptableContentTypes = [NSSet setWithArray:@[@"text/html", @"application/json", @"text/plain"]];
     if (configBlock) {
